@@ -1,0 +1,3 @@
+User-agent: * 
+Disallow:
+Sitemap: https://www.mymaster11.com/sitemap.xml

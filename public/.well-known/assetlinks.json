@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "mymaster11.com",
+            "sha256_cert_fingerprints": [
+                "45:23:9A:5F:F6:83:DB:EB:E2:7C:12:5F:F5:B3:BA:6D:95:8D:61:8E:4E:14:70:73:E2:28:54:A7:D6:72:0A:B1"
+            ]
+        }
+    }
+]
