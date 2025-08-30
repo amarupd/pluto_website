@@ -206,6 +206,7 @@ export default function Home({ }) {
             </div>
           </div>
 
+
           <div className="hero-footer">
             <div className="container">
               <div className="row">

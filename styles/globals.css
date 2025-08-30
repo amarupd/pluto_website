@@ -782,7 +782,7 @@ header .social_ul li:last-child {
 }
 
 .hero-sec .hero-footer {
-  background: url("/img/hero.jpg");
+  background: url("/img/pluto_hero.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -884,7 +884,7 @@ header .social_ul li:last-child {
 }
 
 .heading h2 span {
-  color: #1c2985;
+  color: #f11000;
 }
 
 .howToinstall-sec .heading {

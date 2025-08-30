@@ -56,8 +56,9 @@ function Header() {
               <Link href="/" rel="canonical">
                 <a className="navbar-brand">
                   <img
-                    src={getPublicUrl("img/logo_head.png")}
-                    className="img-fluid w-100"
+                    // src={getPublicUrl("img/logo_head.png")}
+                    src="/pluto.png"
+                    className="img-fluid w-50"
                     alt="My Master11 Logo"
                   />
                 </a>
@@ -65,7 +66,7 @@ function Header() {
             </div>
 
             <div className="d-flex align-items-center">
-            {/* <Link
+            <Link
                 rel="canonical"
                 href={
                   platform === "Android"
@@ -79,10 +80,10 @@ function Header() {
                   <i className="fas fa-download"></i>
                   Download App
                 </a>
-              </Link> */}
+              </Link>
 
               {/* Conditionally render the QR code image */}
-              {/* {!isMobile && (
+              {!isMobile && (
                 <Link rel="canonical" href="/">
                   <img
                     src={getPublicUrl("img/qr3.png")}
@@ -91,7 +92,7 @@ function Header() {
                     style={{ marginLeft: "20px" }}
                   />
                 </Link>
-              )} */}
+              )}
             </div>
           </div>
         </div>
