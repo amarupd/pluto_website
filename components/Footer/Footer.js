@@ -177,13 +177,13 @@ function Footer() {
                       <span className="span-copy">
                         Copyright © 2025 &nbsp;
                         <Link rel="canonical" href="/">
-                          <a className="text-warning "> MyMaster11.com, </a>
+                          <a className="text-warning "> Pluto143.com, </a>
                         </Link>
                       </span>
                       &nbsp; Design & Developed By &nbsp;
-                      <Link rel="canonical" href="https://masterwiztechnologies.com/">
+                      <Link rel="canonical" href="https://xyz.com/">
                         <a className="text-warning" target="_blank">
-                          Masterwiz Technology Pvt Ltd
+                          xyz Technology Pvt Ltd
                         </a>
                       </Link>
                     </p>

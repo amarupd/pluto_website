@@ -47,7 +47,7 @@ function Header() {
           left: 0,
           width: "100%",
           zIndex: isMobile ? 9999 : 1000, // Higher zIndex for mobile
-          boxShadow: scrolled ? "0 4px 8px rgba(0, 0, 0, 0.2)" : "none", // Shadow on scroll
+          boxShadow: scrolled ? "0 4px 8px rgba(216 119 119 / 44%) " : "none", // Shadow on scroll
         }}
       >
         <div className="container">
@@ -58,7 +58,7 @@ function Header() {
                   <img
                     // src={getPublicUrl("img/logo_head.png")}
                     src="/pluto.png"
-                    className="img-fluid w-50"
+                    className="img-fluid w-100"
                     alt="My Master11 Logo"
                   />
                 </a>
@@ -83,7 +83,7 @@ function Header() {
               </Link>
 
               {/* Conditionally render the QR code image */}
-              {!isMobile && (
+              {/* {!isMobile && (
                 <Link rel="canonical" href="/">
                   <img
                     src={getPublicUrl("img/qr3.png")}
@@ -92,7 +92,7 @@ function Header() {
                     style={{ marginLeft: "20px" }}
                   />
                 </Link>
-              )}
+              )} */}
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ function Header() {
         }
 
         .custom-navbar.scrolled {
-          background-color: rgba(173, 216, 230, 0.3) !important; /* Very light blue background when scrolled */
+          background-color: rgba(216 119 119 / 44%) !important; /* Very light blue background when scrolled */
           backdrop-filter: blur(8px); /* Add blur effect with a slight blur */
         }
 

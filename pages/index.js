@@ -119,7 +119,7 @@ export default function Home({ }) {
                 <div className="carousel-item active">
 
                   <img
-                    src={getPublicUrl("img/hero-banner-1.png")}
+                    src={getPublicUrl("img/banner_pluto1.jpg")}
                     className="img-fluid w-100 desktop-hero d-none d-sm-none d-md-block"
                     alt=" My Master11 Banner 1"
                   />
