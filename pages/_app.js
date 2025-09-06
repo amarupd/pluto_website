@@ -13,11 +13,11 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<Layout>
 			<NextSeo
-				title="Best Fantasy App in India | Fantasy Cricket App | MyMaster11"
-				description="Elevate your fantasy sports experience with MyMaster11, the best fantasy app in India, and play fantasy sports. Join now for cricket and more, and win big!"
+				title="Best Fantasy App | Fantasy Cricket App | Pluto143"
+				description="Elevate your fantasy sports experience with Pluto143, the best fantasy app in world, and play fantasy sports. Join now for cricket and more, and win big!"
 
 				openGraph={{
-					url: "https://www.mymaster11.com/", title: "Best Fantasy App in India | Fantasy Cricket App | MyMaster11", description: "Elevate your fantasy sports experience with MyMaster11, the best fantasy app in India, and play fantasy sports and Opinion trading. Join now for cricket and more, and win big!", rel:"canonical",
+					url: "https://www.mymaster11.com/", title: "Best Fantasy App | Fantasy Cricket App | Pluto143", description: "Elevate your fantasy sports experience with MyMaster11, the best fantasy app in India, and play fantasy sports and Opinion trading. Join now for cricket and more, and win big!", rel:"canonical",
 					images: [
 						{
 							url: "https://www.mymaster11.com/share.png",

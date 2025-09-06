@@ -75,13 +75,13 @@ function Footer() {
                 <Link rel="canonical" href="#">
                   <a className="navbar-brand">
                     <img
-                      src={getPublicUrl("/img/logo_head.png")}
+                      src={getPublicUrl("/img/pluto.png")}
                       className="img-fluid w-100"
                       alt="My Master11 Logo"
                     />
                   </a>
                 </Link>
-                <ul className="contact_ul">
+                {/* <ul className="contact_ul">
                   <li>
                     <Link rel="canonical" href="mailto:info@mymaster11.com">
                       <a>
@@ -90,9 +90,9 @@ function Footer() {
                     </Link>
                   </li>
                   <li>
-                    <Link rel="canonical" href="tel:9151025051">
+                    <Link rel="canonical" href="tel:7777777777">
                       <a>
-                        <i className="fas fa-phone-alt"></i> +91 9151025051
+                        <i className="fas fa-phone-alt"></i> +91 7777777777
                       </a>
                     </Link>
                   </li>
@@ -106,7 +106,7 @@ function Footer() {
                       </a>
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
             <div className="col-md-2 col-6">
@@ -183,7 +183,7 @@ function Footer() {
                       &nbsp; Design & Developed By &nbsp;
                       <Link rel="canonical" href="https://xyz.com/">
                         <a className="text-warning" target="_blank">
-                          xyz Technology Pvt Ltd
+                          Index Technology Pvt Ltd
                         </a>
                       </Link>
                     </p>
@@ -224,7 +224,7 @@ function Footer() {
                           </a>
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link rel="canonical" href="https://youtube.com/channel/UCRpWQLyegH4SXLZOCLz4z_g">
                           <a>
                             <img
@@ -234,8 +234,8 @@ function Footer() {
                             />
                           </a>
                         </Link>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <Link rel="canonical" href="https://wa.me/+919151025051">
                           <a>
                             <img
@@ -245,7 +245,7 @@ function Footer() {
                             />
                           </a>
                         </Link>
-                      </li>
+                      </li> */}
                       {/* <li>
                         <Link rel="canonical" href="https://www.linkedin.com/company/mymaster11/">
                           <a>
@@ -257,7 +257,7 @@ function Footer() {
                           </a>
                         </Link>
                       </li> */}
-                      <li>
+                      {/* <li>
                         <Link rel="canonical" href="https://t.me/mymaster11">
                           <a>
                             <img
@@ -267,7 +267,7 @@ function Footer() {
                             />
                           </a>
                         </Link>
-                      </li>
+                      </li> */}
                       {/* <li> */}
                         {/* <Link rel="canonical" href="https://in.pinterest.com/mymaster11official/">
                           <a>

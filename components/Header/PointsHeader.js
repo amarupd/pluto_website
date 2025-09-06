@@ -20,7 +20,7 @@ function PointsHeader() {
                   }
                 }}
               >
-                {s.svg ? s.svg(router.pathname == s.route ? '#1c2985' : "") : s.img ? <img src={s.img} /> : <i class={s.className}></i>}
+                {s.svg ? s.svg(router.pathname == s.route ? '#B20201' : "") : s.img ? <img src={s.img} /> : <i class={s.className}></i>}
                 <h6
                   className={`${router.pathname == s.route ? "border-cricket " : ""
                     }`}

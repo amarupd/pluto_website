@@ -142,6 +142,6 @@ export const getPublicUrl = (path = "") => {
     if (path.split("")[0] != "/") {
         path = "/" + path;
     }
-    const url = 'https://mm11-prod-s3-bucket.s3.ap-south-1.amazonaws.com/web-assets/public' + path;
+    const url = 'https://s3pluto143.s3.us-east-1.amazonaws.com/web-assets/public' + path;
     return url;
 }

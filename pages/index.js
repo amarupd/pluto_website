@@ -367,7 +367,7 @@ export default function Home({ }) {
                   </div>
                   <div className="">
                     <img
-                      src={getPublicUrl("img/how-1.jpg")}
+                      src={getPublicUrl("img/how-1.png")}
                       className="img-fluid w-100"
                       alt="My Master11 Select A Match"
                     />
@@ -385,7 +385,7 @@ export default function Home({ }) {
                   </div>
                   <div className="">
                     <img
-                      src={getPublicUrl("img/players2.jpg")}
+                      src={getPublicUrl("img/how-2.png")}
                       className="img-fluid w-100 team-player"
                       alt="My Master11 Create Team"
                     />
@@ -403,7 +403,7 @@ export default function Home({ }) {
                   </div>
                   <div className="">
                     <img
-                      src={getPublicUrl("img/how-3.jpg")}
+                      src={getPublicUrl("img/how-3.png")}
                       className="img-fluid w-100"
                       alt="My Master11 Join Contest"
                     />
@@ -573,13 +573,13 @@ export default function Home({ }) {
                     <Link href={`https://play.google.com/store/apps/details?id=com.mymaster11.android&hl=en_IN`}>
                       <a>
                         <img
-                          src={getPublicUrl("/img/andoid-btn-1.png")}
+                          src={getPublicUrl("/img/andoid-btn-11.png")}
                           className="img-fluid w-100 android-btns"
                           alt="My Master11 Playstore "
                         />
                       </a>
                     </Link>
-                    <Link href={app_ios_url}>
+                    {/* <Link href={app_ios_url}>
                       <a>
                         <img
                           src={getPublicUrl("/img/apple-btn-2.png")}
@@ -587,7 +587,7 @@ export default function Home({ }) {
                           alt="My Master11 App Store"
                         />
                       </a>
-                    </Link>
+                    </Link> */}
 
                     {/* <Link href={"https://dqotsolutions.com/"}>
                       <a

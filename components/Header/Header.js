@@ -56,8 +56,7 @@ function Header() {
               <Link href="/" rel="canonical">
                 <a className="navbar-brand">
                   <img
-                    // src={getPublicUrl("img/logo_head.png")}
-                    src="/pluto.png"
+                    src={getPublicUrl("/img/pluto.png")}
                     className="img-fluid w-100"
                     alt="My Master11 Logo"
                   />
