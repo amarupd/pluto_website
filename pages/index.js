@@ -119,14 +119,14 @@ export default function Home({ }) {
                 <div className="carousel-item active">
 
                   <img
-                    src={getPublicUrl("img/banner_pluto1.jpg")}
+                    src={getPublicUrl("img/banner_pluto1.png")}
                     className="img-fluid w-100 desktop-hero d-none d-sm-none d-md-block"
                     alt=" My Master11 Banner 1"
                   />
 
                   {/* <img src={getPublicUrl("/img/hero-banner.jpg")} className="img-fluid w-100 desktop-hero d-none d-sm-none d-md-block" alt="" /> */}
                   <img
-                    src={getPublicUrl("/img/hero-mobile-banner-1.png")}
+                    src={getPublicUrl("/img/hero-mobile-pluto-banner-1.png")}
                     className="img-fluid w-100 desktop-hero  d-block d-sm-block  d-md-none"
                     alt=" My Master11 Banner 1"
                   />
@@ -411,7 +411,7 @@ export default function Home({ }) {
                 </div>
               </div>
             </div>
-            <div className="row">
+            {/* <div className="row">
               <div className="col-md-12">
                 <div className="mm11-btn">
                   <Link href="/how-to-play">
@@ -419,7 +419,7 @@ export default function Home({ }) {
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 

@@ -111,14 +111,14 @@ function Footer() {
             </div>
             <div className="col-md-2 col-6">
               <div className="links">
-                <h4>Our Services</h4>
+                {/* <h4>Our Services</h4> */}
 
                 <ul className="links-ul">
-                  <li>
+                  {/* <li>
                     <Link rel="canonical" href="how-to-play">
                       <a>How To Play</a>
                     </Link>
-                  </li>
+                  </li> */}
                   {/* <li>
                     <Link rel="canonical" href="/opinion">
                       <a>How To Play Opinion</a>
@@ -135,17 +135,17 @@ function Footer() {
                     </Link>
                   </li> */}
 
-                  <li>
+                  {/* <li>
                     <Link rel="canonical" href="fantasy-points-system">
                       <a>Fantasy Points System</a>
                     </Link>
-                  </li>
+                  </li> */}
 
-                  <li>
+                  {/* <li>
                     <Link rel="canonical" href="contact">
                       <a>Contact Us</a>
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -174,23 +174,23 @@ function Footer() {
                 <div className="footer_bar">
                   <div className="ft-left-bar">
                     <p>
-                      <span className="span-copy">
+                      {/* <span className="span-copy">
                         Copyright © 2025 &nbsp;
                         <Link rel="canonical" href="/">
                           <a className="text-warning "> Pluto143.com, </a>
                         </Link>
-                      </span>
-                      &nbsp; Design & Developed By &nbsp;
-                      <Link rel="canonical" href="https://xyz.com/">
+                      </span> */}
+                      {/* &nbsp; Design & Developed By &nbsp; */}
+                      {/* <Link rel="canonical" href="https://xyz.com/">
                         <a className="text-warning" target="_blank">
                           Index Technology Pvt Ltd
                         </a>
-                      </Link>
+                      </Link> */}
                     </p>
                   </div>
                   <div className="ft-right-bar">
                     <ul className="social_ul">
-                      <li>
+                      {/* <li>
                         <Link rel="canonical" href="https://www.facebook.com/mymaster11official">
                           <a>
                             <img
@@ -223,7 +223,7 @@ function Footer() {
                             />
                           </a>
                         </Link>
-                      </li>
+                      </li> */}
                       {/* <li>
                         <Link rel="canonical" href="https://youtube.com/channel/UCRpWQLyegH4SXLZOCLz4z_g">
                           <a>
