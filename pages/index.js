@@ -570,7 +570,9 @@ export default function Home({ }) {
               <div className="col-md-12">
                 <div className="floting-column">
                   <div className="floing-in">
-                    <Link href={`https://play.google.com/store/apps/details?id=com.mymaster11.android&hl=en_IN`}>
+                    <Link href={
+                      app_debug_url
+                    }>
                       <a>
                         <img
                           src={getPublicUrl("/img/andoid-btn-11.png")}

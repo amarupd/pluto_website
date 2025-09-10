@@ -71,7 +71,7 @@ function Header() {
                   platform === "Android"
                     ? app_debug_url
                     : platform === "iOS"
-                      ? app_ios_url
+                      ? app_debug_url
                       : app_debug_url
                 }
               >
